@@ -131,3 +131,8 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://*',
+    'https://web-production-f6ef.up.railway.app'
+]
